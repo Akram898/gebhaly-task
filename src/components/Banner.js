@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 
 const Banner = () => {
   return (
-    <div className="relative">
+    <div className="relative t-10">
       <div className="absolute w-full h-32 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" />
       <Carousel
         autoPlay
@@ -16,10 +16,11 @@ const Banner = () => {
         interval={5000}
       >
         <div>
-          <img loading="lazy" src="https://links.papareact.com/6ff" alt="img" />
-        </div>
-        <div>
-          <img loading="lazy" src="https://links.papareact.com/7ma" alt="img" />
+          <img
+            loading="lazy"
+            src="https://www.gebhaly.com/img/cover.png"
+            alt="img"
+          />
         </div>
         <div>
           <img loading="lazy" src="https://links.papareact.com/gi1" alt="img" />
